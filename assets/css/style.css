@@ -1,5 +1,20 @@
+:root {
+  --bg-color-lg-grey: #efefef;
+}
+
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body {
+  background-color: var(--bg-color-lg-grey);
 }

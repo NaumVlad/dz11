@@ -1,6 +1,19 @@
-@import 'normalize';
+:root {
+  --bg-color-lg-grey: #EFEFEF;
+}
 
-@import 'presets/skins';
-@import 'presets/variables';
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-@import 'common';
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body {
+  background-color: var(--bg-color-lg-grey);
+}
