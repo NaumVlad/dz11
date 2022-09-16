@@ -15,5 +15,61 @@ html {
 }
 
 body {
+  font-size: 0.875rem;
   background-color: var(--bg-color-lg-grey);
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {}
+
+.navbar-secondary {
+  min-height: 50px;
+}
+
+.container {}
+
+.container-secondary {}
+
+.navbar-secondary__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.navbar-secondary__item {}
+
+.navbar-secondary__link {}
+
+.container-big {}
+
+.logo {}
+
+.logo__link {}
+
+.logo__image {}
+
+.logo__title {}
+
+.feedback {}
+
+.feedback__phone {}
+
+.feedback__button {}
+
+.navbar-primary {}
+
+.container-primary {}
+
+.navbar-primary__list {}
+
+.navbar-primary__item {}
+
+.navbar-primary__link {}
