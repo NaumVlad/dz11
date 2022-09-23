@@ -209,6 +209,10 @@ ul {
   padding-bottom: 192px;
 
   background-color: var(--color-pink);
+  background-image: url(../img/hero.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 .hero__content {
