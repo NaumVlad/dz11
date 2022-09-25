@@ -347,3 +347,27 @@ ul {
   font-weight: 500;
   line-height: 25px;
 }
+
+.submit__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  min-height: 210px;
+
+  gap: 30px;
+}
+
+.subscribe {
+  width: 540px;
+  min-height: 210px;
+
+  background-color: var(--bg-color-pink);
+}
+
+.location {
+  width: 540px;
+  min-height: 210px;
+
+  background-color: var(--bg-color-pink);
+}
