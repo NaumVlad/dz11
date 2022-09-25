@@ -1,6 +1,8 @@
 :root {
   --bg-color-lg-grey: #efefef;
+  --color-grey: #333333;
   --color-black: #000000;
+  --bg-color-pink: #f13c6e;
   --color-pink: #f13c6e;
   --bg-color-white: #ffffff;
   --color-white: #ffffff;
@@ -50,7 +52,7 @@ ul {
   padding: 0 20px;
 }
 
-.btn {
+.btn--primary {
   max-width: 170px;
   min-height: 40px;
   border-radius: 40px;
@@ -62,7 +64,18 @@ ul {
   padding: 0.25em 1em;
 }
 
-
+.btn--secondary {
+  max-width: 130px;
+  min-height: 35px;
+  border-radius: 30px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  background-color: var(--bg-color-pink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25em 1em;
+}
 
 .navbar-secondary {
   min-height: 50px;
@@ -90,6 +103,7 @@ ul {
   min-height: 120px;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-bottom: 1px;
 }
 
 .container-info {
@@ -141,7 +155,6 @@ ul {
   display: flex;
   align-items: center;
   min-height: 79px;
-  margin-top: 1px;
   background-color: var(--bg-color-white);
   padding-top: 1em;
   padding-bottom: 1em;
@@ -183,14 +196,13 @@ ul {
   min-height: 220px;
   color: var(--color-white);
   display: flex;
-
   flex-direction: column;
   gap: 40px;
 }
 
 .hero__title {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 56px;
   margin: 0;
 }
@@ -208,25 +220,61 @@ ul {
   letter-spacing: 0.05em;
 }
 
-.offers {}
+.offers {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
 
 .container {}
 
 .container-offers {}
 
-.offers__title {}
+.offers__title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 28px;
+  margin-bottom: 38px;
+}
 
-.offers__content {}
+.offers__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
 
-.Offer-item {}
+.Offer-item {
+  max-width: 255px;
+  min-height: 363px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  background-color: var(--bg-color-white);
+}
 
-.Offer-item__title {}
+.Offer-item__title {
+  font-size: 0.875rem;
+  line-height: 20px;
+  color: var(--color-grey);
+  text-align: center;
+}
 
-.Offer-item__picture {}
+.Offer-item__picture {
+  order: -1;
+}
 
-.Offer-item__image {}
+.Offer-item__image {
+  width: 125px;
+  height: 166px;
+}
 
-.Offer-item__price {}
+.Offer-item__price {
+  font-weight: 500;
+  font-size: 1.312rem;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+}
 
 .Offer-item__actions {}
 

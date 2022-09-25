@@ -1,7 +1,9 @@
 :root {
   --bg-color-lg-grey: #efefef;
+  --bg-color-pink: #f13c6e;
   --bg-color-white: #ffffff;
   --color-black: #000000;
+  --color-grey: #333333;
   --color-pink: #f13c6e;
   --color-white: #ffffff;
 }
@@ -48,7 +50,7 @@ ul {
   padding: 0 20px;
 }
 
-.btn {
+.btn--primary {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,6 +68,29 @@ ul {
   border-width: 2px;
   border-style: solid;
   border-radius: 40px;
+}
+
+.btn--secondary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  max-width: 130px;
+  min-height: 35px;
+  padding: 0.25em 1em;
+
+  letter-spacing: 0.05em;
+
+  border-radius: 30px;
+  background-color: var(--bg-color-pink);
+
+  line-height: 16px;
 }
 
 .navbar-secondary {
@@ -96,6 +121,7 @@ ul {
 
 .navbar-info {
   min-height: 120px;
+  margin-bottom: 1px;
   padding-top: 20px;
   padding-bottom: 20px;
 
@@ -176,7 +202,6 @@ ul {
   -ms-flex-align: center;
 
   min-height: 79px;
-  margin-top: 1px;
   padding-top: 1em;
   padding-bottom: 1em;
 
@@ -233,7 +258,7 @@ ul {
 .hero__title {
   margin: 0;
 
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 56px;
 }
@@ -249,4 +274,76 @@ ul {
 
   border-color: var(--color-white);
   background: var(--color-pink);
+}
+
+.offers {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.offers__title {
+  margin-bottom: 38px;
+
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.offers__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+
+  gap: 30px;
+}
+
+.Offer-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+
+  max-width: 255px;
+  min-height: 363px;
+  padding: 25px;
+
+  background-color: var(--bg-color-white);
+
+  gap: 15px;
+}
+
+.Offer-item__title {
+  text-align: center;
+
+  color: var(--color-grey);
+
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
+.Offer-item__picture {
+  -webkit-box-ordinal-group: 0;
+  -ms-flex-order: -1;
+  order: -1;
+}
+
+.Offer-item__image {
+  width: 125px;
+  height: 166px;
+}
+
+.Offer-item__price {
+  letter-spacing: 0.05em;
+
+  font-size: 1.312rem;
+  font-weight: 500;
+  line-height: 25px;
 }
