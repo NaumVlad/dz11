@@ -348,6 +348,10 @@ ul {
   line-height: 25px;
 }
 
+.submit {
+  padding-bottom: 100px;
+}
+
 .submit__content {
   display: -webkit-box;
   display: -ms-flexbox;
