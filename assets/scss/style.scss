@@ -53,7 +53,7 @@ ul {
 }
 
 .btn--primary {
-  max-width: 170px;
+  width: 170px;
   min-height: 40px;
   border-radius: 40px;
   border-width: 2px;
@@ -65,7 +65,7 @@ ul {
 }
 
 .btn--secondary {
-  max-width: 130px;
+  width: 130px;
   min-height: 35px;
   border-radius: 30px;
   line-height: 16px;
@@ -85,7 +85,7 @@ ul {
   padding-bottom: 1em;
 }
 
-.container-secondary {}
+.container--secondary {}
 
 .navbar-secondary__list {
   display: flex;
@@ -106,7 +106,7 @@ ul {
   margin-bottom: 1px;
 }
 
-.container-info {
+.container--info {
   background-color: var(--bg-color-white);
   display: flex;
   justify-content: space-between;
@@ -151,7 +151,7 @@ ul {
   border-color: var(--color-pink);
 }
 
-.navbar-primary {
+.navbar--primary {
   display: flex;
   align-items: center;
   min-height: 79px;
@@ -189,7 +189,7 @@ ul {
 
 .container {}
 
-.container-hero {}
+.container--hero {}
 
 .hero__content {
   max-width: 310px;
@@ -227,7 +227,7 @@ ul {
 
 .container {}
 
-.container-offers {}
+.container--offers {}
 
 .offers__title {
   font-weight: 700;
@@ -287,7 +287,7 @@ ul {
 
 .container {}
 
-.container-submit {}
+.container--submit {}
 
 .submit__content {
   min-height: 210px;
@@ -296,9 +296,41 @@ ul {
 }
 
 .subscribe {
-  background-color: var(--bg-color-pink);
   width: 540px;
   min-height: 210px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+/*   display: flex;
+  flex-direction: column; */
+  background-color: var(--bg-color-pink);
+  color: var(--color-white);
+}
+
+.subscribe__title {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 21px;
+}
+
+.subscribe__description {}
+
+.subscribe__email {
+  width: 225px;
+  min-height: 35px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 25px;
+  background-color: var(--bg-color-white);
+  border-radius: 30px;
+  border: none;
+}
+
+.subscribe__picture {
+  float: right;
+}
+
+.subscribe__image {
+
 }
 
 .location {
@@ -306,3 +338,15 @@ ul {
   width: 540px;
   min-height: 210px;
 }
+
+.location__title {}
+
+.location__description {}
+
+.location__maps {}
+
+.location__link {}
+
+.location__picture {}
+
+.location__image {}
