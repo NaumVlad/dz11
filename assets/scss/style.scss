@@ -240,6 +240,33 @@ ul {
   gap: 30px;
 }
 
+@media (max-width: 1200px) {
+  .offers__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 864px) {
+  .offers__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .offers__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
 .Offer-item {
   max-width: 255px;
   min-height: 363px;
@@ -289,7 +316,7 @@ ul {
 }
 
 .subscribe {
-  width: 540px;
+  max-width: 540px;
   min-height: 210px;
   padding: 35px 45px 35px 40px;
   display: flex;
@@ -298,14 +325,6 @@ ul {
   background-color: var(--bg-color-pink);
   color: var(--color-white);
 }
-
-/* @media (max-width: 1150px) {
-  .subscribe {
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 35px;
-  }
-} */
 
 .subscribe__content {
   max-width: 255px;
@@ -338,27 +357,18 @@ ul {
 }
 
 .location {
-  background-color: var(--bg-color-pink);
-  width: 540px;
+  max-width: 540px;
   min-height: 210px;
   padding: 35px 45px 35px 40px;
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 95px;
   background-color: var(--bg-color-pink);
   color: var(--color-white);
 }
 
-@media (max-width: 1150px) {
-  .location {
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 35px;
-  }
-}
-
 .location__content {
-  max-width: 255px;
+  max-width: 200px;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -372,6 +382,54 @@ ul {
 
 .location__maps {}
 
-.location__link {}
+.location__link {
+  background-color: var(--bg-color-pink);
+}
 
 .location__image {}
+
+
+@media (max-width: 1200px) {
+  .subscribe {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 35px 45px 35px 40px;
+    gap: 65px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .location {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 35px 45px 35px 40px;
+    gap: 95px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container--submit {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .subscribe {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 35px 45px 35px 40px;
+    gap: 65px;
+  }
+}
+
+@media (max-width: 768px) {
+  .location {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 35px 45px 35px 40px;
+    gap: 95px;
+  }
+}
