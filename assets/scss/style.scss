@@ -387,18 +387,28 @@ ul {
   background-color: var(--bg-color-pink);
 }
 
-.advertising {
+.brands {
   margin-top: 100px;
   margin-bottom: 80px;
 }
 
 .container--advertising {}
 
-.advertising__content {}
+.brands__content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+}
 
-.advertising__picture {}
+.brands__picture {
+  background-color: var(--bg-color-white);
+  padding: 35px 60px;
+}
 
-.advertising__image {}
+.brands__links {}
+
+.brands__image {}
+
 
 
 

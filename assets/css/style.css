@@ -449,9 +449,22 @@ ul {
   background-color: var(--bg-color-pink);
 }
 
-.advertising {
+.brands {
   margin-top: 100px;
   margin-bottom: 80px;
+}
+
+.brands__content {
+  display: grid;
+
+  gap: 1px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.brands__picture {
+  padding: 35px 60px;
+
+  background-color: var(--bg-color-white);
 }
 
 @media (max-width: 1200px) {
