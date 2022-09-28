@@ -151,22 +151,17 @@ ul {
   border-color: var(--color-pink);
 }
 
-.navbar--primary {
-  display: flex;
-  align-items: center;
-  min-height: 79px;
+.navbar-primary {
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
   background-color: var(--bg-color-white);
-  padding-top: 1em;
-  padding-bottom: 1em;
 }
 
-.container-primary {}
+.container--primary {}
 
 .navbar-primary__list {
-  min-height: 80px;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 1px;
   align-items: center;
   justify-content: center;
   gap: 10px 40px;
@@ -304,13 +299,13 @@ ul {
   color: var(--color-white);
 }
 
-@media (max-width: 1150px) {
+/* @media (max-width: 1150px) {
   .subscribe {
     flex-wrap: wrap;
     justify-content: center;
     padding: 35px;
   }
-}
+} */
 
 .subscribe__content {
   max-width: 255px;
