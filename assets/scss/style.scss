@@ -219,8 +219,8 @@ ul {
 }
 
 .offers {
-  padding-top: 80px;
-  padding-bottom: 100px;
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 
 .container {}
@@ -307,7 +307,8 @@ ul {
 
 
 .submit {
-  padding-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .container--submit {
@@ -386,9 +387,18 @@ ul {
   background-color: var(--bg-color-pink);
 }
 
-.location__image {}
+.advertising {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
 
+.container--advertising {}
 
+.advertising__content {}
+
+.advertising__picture {}
+
+.advertising__image {}
 
 
 

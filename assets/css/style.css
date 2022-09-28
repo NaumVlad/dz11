@@ -272,8 +272,8 @@ ul {
 }
 
 .offers {
-  padding-top: 80px;
-  padding-bottom: 100px;
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 
 .offers__title {
@@ -343,7 +343,8 @@ ul {
 }
 
 .submit {
-  padding-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .container--submit {
@@ -446,6 +447,11 @@ ul {
 
 .location__link {
   background-color: var(--bg-color-pink);
+}
+
+.advertising {
+  margin-top: 100px;
+  margin-bottom: 80px;
 }
 
 @media (max-width: 1200px) {
