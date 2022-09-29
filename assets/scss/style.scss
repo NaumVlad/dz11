@@ -397,6 +397,7 @@ ul {
 .brands__content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  text-align: center;
   gap: 1px;
 }
 
@@ -454,5 +455,17 @@ ul {
     justify-content: center;
     padding: 35px 45px 35px 40px;
     gap: 95px;
+  }
+}
+
+@media (max-width: 1122px) {
+  .brands__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .brands__content {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
