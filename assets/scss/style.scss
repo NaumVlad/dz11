@@ -413,6 +413,31 @@ ul {
 
 
 
+.contacts {}
+
+.container {}
+
+.container--contacts {}
+
+.social {}
+
+.social__link {}
+
+.social__image {
+  width: 40px;
+  height: 40px;
+}
+
+.feedback {}
+
+.feedback__phone {}
+
+.feedback__button {}
+
+.btn--primary {}
+
+
+
 @media (max-width: 1200px) {
   .subscribe {
     flex-wrap: wrap;
