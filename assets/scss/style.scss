@@ -413,6 +413,19 @@ ul {
   color: var(--color-md-grey);
 }
 
+@media (max-width: 768px) {
+  .container--info {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .feedback {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 1200px) {
   .subscribe {
     flex-wrap: wrap;

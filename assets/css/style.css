@@ -622,6 +622,14 @@ ul {
 }
 
 @media (max-width: 768px) {
+  .container--info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+
+    gap: 40px;
+  }
   .container--submit {
     -webkit-box-align: center;
     align-items: center;
@@ -661,6 +669,12 @@ ul {
 }
 
 @media (max-width: 576px) {
+  .feedback {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
   .brands__content {
     grid-template-columns: repeat(1, 1fr);
   }
