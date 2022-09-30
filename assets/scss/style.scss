@@ -212,7 +212,7 @@ ul {
   gap: 30px;
 }
 
-.Offer-item {
+.offer-item {
   max-width: 255px;
   min-height: 363px;
   padding: 25px;
@@ -223,23 +223,23 @@ ul {
   background-color: var(--bg-color-white);
 }
 
-.Offer-item__title {
+.offer-item__title {
   font-size: 0.875rem;
   line-height: 20px;
   color: var(--color-hg-grey);
   text-align: center;
 }
 
-.Offer-item__picture {
+.offer-item__picture {
   order: -1;
 }
 
-.Offer-item__image {
+.offer-item__image {
   width: 125px;
   height: 166px;
 }
 
-.Offer-item__price {
+.offer-item__price {
   font-weight: 500;
   font-size: 1.312rem;
   line-height: 25px;

@@ -288,7 +288,7 @@ ul {
   gap: 30px;
 }
 
-.Offer-item {
+.offer-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -309,7 +309,7 @@ ul {
   gap: 15px;
 }
 
-.Offer-item__title {
+.offer-item__title {
   text-align: center;
 
   color: var(--color-hg-grey);
@@ -318,18 +318,18 @@ ul {
   line-height: 20px;
 }
 
-.Offer-item__picture {
+.offer-item__picture {
   -webkit-box-ordinal-group: 0;
   -ms-flex-order: -1;
   order: -1;
 }
 
-.Offer-item__image {
+.offer-item__image {
   width: 125px;
   height: 166px;
 }
 
-.Offer-item__price {
+.offer-item__price {
   letter-spacing: 0.05em;
 
   font-size: 1.312rem;
