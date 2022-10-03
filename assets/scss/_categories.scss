@@ -1,0 +1,47 @@
+@use "presets" as *;
+
+.categories {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $bg-color-white;
+
+  &--container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+    @media (max-width: $sm) {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+  }
+
+  &__content {
+    width: 255px;
+  }
+
+  &__title {
+    width: 99px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 22.5px;
+    margin-bottom: 1px;
+
+    @media (max-width: $sm) {
+      margin: 0 auto;
+    }
+  }
+
+  &__list {
+    padding-top: 25px;
+    border-top: 1px solid $bg-color-lg-grey;
+  }
+
+  &__link {
+    font-size: 0.75rem;
+    line-height: 28px;
+    color: $color-md-grey;
+  }
+}

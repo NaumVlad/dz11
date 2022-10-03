@@ -1,0 +1,111 @@
+@use "presets" as *;
+
+.submit {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  &--container {
+    display: flex;
+    gap: 30px;
+
+    @media (max-width: $md) {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+}
+
+.subscribe {
+  max-width: 540px;
+  min-height: 210px;
+  padding: 35px 45px 35px 40px;
+  display: flex;
+  align-items: center;
+  gap: 65px;
+  background-color: $bg-color-pink;
+  color: $color-white;
+
+  @media (max-width: $xl) {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 35px 45px 35px 40px;
+    gap: 65px;
+  }
+
+  @media (max-width: $md) {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 35px 45px 35px 40px;
+    gap: 65px;
+  }
+
+  &__content {
+    max-width: 255px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 21px;
+  }
+
+  &__email {
+    width: 225px;
+    min-height: 35px;
+    padding: 9px 25px;
+    background-color: $bg-color-white;
+    border-radius: 30px;
+    border: none;
+  }
+
+  &__image {
+    height: 106px;
+  }
+}
+
+.location {
+  max-width: 540px;
+  min-height: 210px;
+  padding: 35px 45px 35px 40px;
+  display: flex;
+  align-items: center;
+  gap: 95px;
+  background-color: $bg-color-pink;
+  color: $color-white;
+
+  @media (max-width: $xl) {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 35px 45px 35px 40px;
+    gap: 95px;
+  }
+
+  @media (max-width: $md) {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 35px 45px 35px 40px;
+    gap: 95px;
+  }
+
+  &__content {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 21px;
+  }
+
+  &__link {
+    background-color: $bg-color-pink;
+  }
+}

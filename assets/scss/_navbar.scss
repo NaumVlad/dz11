@@ -1,0 +1,54 @@
+@use "presets" as *;
+
+.navbar-secondary {
+  min-height: 50px;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 30px;
+  }
+}
+
+.navbar-info {
+  background-color: $bg-color-white;
+  min-height: 120px;
+  padding-top: $gap;
+  padding-bottom: $gap;
+  margin-bottom: 1px;
+
+  &--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    @media (max-width: $md) {
+      flex-direction: column;
+      gap: 40px;
+    }
+  }
+}
+
+.navbar-primary {
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+  background-color: $bg-color-white;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px 40px;
+  }
+
+  &__item {
+    font-size: 1rem;
+    line-height: 19px;
+  }
+}

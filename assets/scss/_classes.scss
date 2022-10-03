@@ -1,0 +1,32 @@
+@use "presets" as *;
+
+.container {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 $gap;
+}
+
+.btn--primary {
+  width: 170px;
+  min-height: 40px;
+  border-radius: 40px;
+  border-width: 2px;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25em 1em;
+}
+
+.btn--secondary {
+  width: 130px;
+  min-height: 35px;
+  border-radius: 30px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  background-color: $bg-color-pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25em 1em;
+}

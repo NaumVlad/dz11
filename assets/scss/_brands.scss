@@ -1,0 +1,27 @@
+@use "presets" as *;
+
+.brands {
+  margin-top: 100px;
+  margin-bottom: 80px;
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 1px;
+
+    @media (max-width: $xl) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: $sm) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+  }
+
+  &__picture {
+    background-color: $bg-color-white;
+    padding: 35px 60px;
+  }
+}
